@@ -1,4 +1,4 @@
-### Survey on audiovisual emotion recognition
+### Survey on audiovisual emotion recognition 
 
 #### Abstract
 
