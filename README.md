@@ -1,6 +1,3 @@
 # AVER
-Audio+Video Emotion Recognition
+Some Researches about Audio+Video Emotion Recognition
 
-123
-
-3221
