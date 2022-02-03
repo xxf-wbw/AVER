@@ -12,7 +12,7 @@ This paper gives a survey on the existing audiovisual emotion databases and rece
 
 Audiovisual databases for emotion recognition task
 
-![](Survey on audiovisual emotion recognition.assets/databases.gif)
+![image-20220203153311276](paper1_overview.assets/image-20220203153311276.png)
 
 1. Elicitation method
    1. posed (acted)
@@ -27,13 +27,13 @@ Audiovisual databases for emotion recognition task
 
 Literature review on facial–vocal expression-based emotion recognition.
 
-![](Survey on audiovisual emotion recognition.assets/Literature review on facial–vocal expression-based emotion recognition..gif)
+![image-20220203153332195](paper1_overview.assets/image-20220203153332195.png)
 
 1. Audio features
 
    Correlations among prosodic features and emotions
 
-   ![](Survey on audiovisual emotion recognition.assets/Correlations among prosodic features and emotions.gif)
+   ![image-20220203153344181](paper1_overview.assets/image-20220203153344181.png)
 
    1. local (frame-level) features
 
@@ -81,21 +81,19 @@ Literature review on facial–vocal expression-based emotion recognition.
 
       Illustration of feature-level fusion strategy for audiovisual emotion recognition.
 
-      ![](Survey on audiovisual emotion recognition.assets/Illustration of feature-level fusion strategy for audiovisual emotion recognition..jpeg)
-
-   2. The decision-level fusion
+      ![image-20220203153406497](paper1_overview.assets/image-20220203153406497.png)The decision-level fusion
 
       Multiple signals can be modeled by the corresponding classifier first, and then the recognition results from each classifier are fused in the end, as shown in Fig. 5. The fusion-based method at the decision level, without increasing the dimensionality, can combine various modalities by exploring the contributions of different emotional expressions. 
 
        Illustration of decision-level fusion strategy for audiovisual emotion recognition.
 
-      ![](Survey on audiovisual emotion recognition.assets/Illustration of decision-level fusion strategy for audiovisual emotion recognition..jpeg)
+      ![image-20220203153416703](paper1_overview.assets/image-20220203153416703.png)
 
    3. A model-level fusion strategy
 
       Be proposed to emphasize the correlation information between multimodalities and explore the temporal relationship between audio and video signal streams (as shown in Figure 6).
 
-      ![](Survey on audiovisual emotion recognition.assets/Fig. 6. Illustration of model-level fusion strategy for audiovisual emotion recognition..jpg)
+      ![image-20220203153425205](paper1_overview.assets/image-20220203153425205.png)
 
       There are several distinctive examples such as Coupled HMM (C-HMM), Tripled HMM (T-HMM), Multistream Fused HMM (MFHMM), and Semi-Coupled HMM (SC-HMM)
 
@@ -113,11 +111,11 @@ Literature review on facial–vocal expression-based emotion recognition.
 
       An example of the temporal phases of onset, apex, and offset of facial expression is shown in [Fig. 7](https://proxy.library.spbu.ru:2158/core/journals/apsipa-transactions-on-signal-and-information-processing/article/survey-on-audiovisual-emotion-recognition-databases-features-and-data-fusion-strategies/5BA206CFFEC3BAE321842B8EB820E179#fig07).
 
-      ![](Survey on audiovisual emotion recognition.assets/Fig. 7. An example of the temporal phases of happy facial expression from onset, over apex to offset phase..jpeg)
+      ![image-20220203153433141](paper1_overview.assets/image-20220203153433141.png)
 
       [Figure 8](https://proxy.library.spbu.ru:2158/core/journals/apsipa-transactions-on-signal-and-information-processing/article/survey-on-audiovisual-emotion-recognition-databases-features-and-data-fusion-strategies/5BA206CFFEC3BAE321842B8EB820E179#fig08) illustrates model- and state-level alignments between audio and visual HMM sequences in the happy emotional state. 
 
-      ![](Survey on audiovisual emotion recognition.assets/Fig. 8. An example illustrating model- and state-level alignments.jpeg)
+      ![image-20220203153439601](paper1_overview.assets/image-20220203153439601.png)
 
 5. Conclusion
 
