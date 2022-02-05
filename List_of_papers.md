@@ -1,23 +1,3 @@
-<style>
-table th:first-of-type {
-    width: 5%;
-}
-table th:nth-of-type(2) {
-    width: 15%;
-}
-table th:nth-of-type(3) {
-    width: 15%;
-}
-table th:nth-of-type(4) {
-    width: 15%;
-}
-table th:nth-of-type(5) {
-    width: 15%;
-}
-table th:nth-of-type(6) {
-    width: 35%;
-}
-</style>
 |      | Paper title| Dataset| Preprocessing| Algorithm|Experiment Results|
 | :--- |------------------------------ | ---------------------------- | -------------------------- |------------------------ | ----------------------------------------- |
 | 1    | Deep Audio-visual  Speech Recognition                        | 1.LRS2     2.LRS3| 1.Generate  the dataset     2.Method of divide the dataset   | 1.Training  Strategy : Curriculum learning     2.Seq2seq         3.CTC | 1.Lip  only (Seq2seq better than CTC)  2.Out-of-sync Audio and Video (Seq2seq is better) 3. Seq2seq vs CTC 3.1Training time (CTC faster than  seq2seq) 3.2Inference time (CTC faster  than seq2seq) |
