@@ -1,5 +1,5 @@
 |      | Paper title| Dataset| Preprocessing| Algorithm|Experiment Results|
-| :--- |------------------------------ | ---------------------------- | -------------------------- |------------------------ | ----------------------------------------- |
+| :--- |-- | ---------------------------- | -- |-- | ---------------- |
 | 1    | Deep Audio-visual  Speech Recognition                        | 1.LRS2     2.LRS3| 1.Generate  the dataset     2.Method of divide the dataset   | 1.Training  Strategy : Curriculum learning     2.Seq2seq         3.CTC | 1.Lip  only (Seq2seq better than CTC)  2.Out-of-sync Audio and Video (Seq2seq is better) 3. Seq2seq vs CTC 3.1Training time (CTC faster than  seq2seq) 3.2Inference time (CTC faster  than seq2seq) |
 | 2    | Audio-Visual  Speech Recognition with a Hybrid      CTC/Attention Architecture(2018) | LRS2| Extract the mouth ROI from the LRS2 dataset| 1.ResNet2.(B)LSTMs3.CTC4.RNN-LM | Audio-visual  model(early fusion) is beteer than audio-only model |
 | 3    | Vggsound: A  lager-scale Audio-Visual Dataset| Vggsound|| 1.Vggish  model 2.ResNet 3.NetVLAD | Propose  an automated pipeline for collecting a large-scale audio-visual dataset – VGGSound. |
